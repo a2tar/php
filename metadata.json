@@ -1,0 +1,13 @@
+{
+  "name": "a2tar-php",
+  "version": "0.1.0",
+  "summary": "",
+  "author": "A2Tar",
+  "description": "",
+  "dependencies": [],
+  "types": [],
+  "checksums": {},
+  "source": "https://github.com/a2tar/php.git",
+  "project_page": "https://github.com/a2tar/php",
+  "license": "MIT License"
+}
