@@ -35,10 +35,6 @@ class php::fpm (
     notify  => Class["php::fpm::service"],
   }
 
-  #  if $browscap == 'on' {
-  #    include php::browscap
-  #  }
-
   file { "default-pool":
     path   => "/etc/php5/fpm/pool.d/www.conf",
     ensure => absent,
