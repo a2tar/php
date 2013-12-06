@@ -1,6 +1,5 @@
 class php::fpm (
   $ensure              = present,
-  $browscap            = 'on',
   $display_errors      = 'Off',
   $post_max_size       = '10m',
   $upload_max_filesize = '10M',
@@ -36,9 +35,9 @@ class php::fpm (
     notify  => Class["php::fpm::service"],
   }
 
-  if $browscap == 'on' {
-    include php::browscap
-  }
+  #  if $browscap == 'on' {
+  #    include php::browscap
+  #  }
 
   file { "default-pool":
     path   => "/etc/php5/fpm/pool.d/www.conf",
