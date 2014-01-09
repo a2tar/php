@@ -4,7 +4,9 @@
   "summary": "",
   "author": "A2Tar",
   "description": "",
-  "dependencies": [],
+  "dependencies": [
+    {"name":"puppetlabs/apt","version_requirement":"1.4.0"}
+  ],
   "types": [],
   "checksums": {},
   "source": "https://github.com/a2tar/php.git",
